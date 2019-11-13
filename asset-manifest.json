@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/props-hooks-portals/static/js/main.a5bd2434.chunk.js",
+    "main.js.map": "/props-hooks-portals/static/js/main.a5bd2434.chunk.js.map",
+    "runtime-main.js": "/props-hooks-portals/static/js/runtime-main.90f64d39.js",
+    "runtime-main.js.map": "/props-hooks-portals/static/js/runtime-main.90f64d39.js.map",
+    "static/js/2.07902d39.chunk.js": "/props-hooks-portals/static/js/2.07902d39.chunk.js",
+    "static/js/2.07902d39.chunk.js.map": "/props-hooks-portals/static/js/2.07902d39.chunk.js.map",
+    "static/js/3.f495f6de.chunk.js": "/props-hooks-portals/static/js/3.f495f6de.chunk.js",
+    "static/js/3.f495f6de.chunk.js.map": "/props-hooks-portals/static/js/3.f495f6de.chunk.js.map",
+    "index.html": "/props-hooks-portals/index.html",
+    "precache-manifest.df49b2475d412f3dfb2dfcc67e6b28da.js": "/props-hooks-portals/precache-manifest.df49b2475d412f3dfb2dfcc67e6b28da.js",
+    "service-worker.js": "/props-hooks-portals/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90f64d39.js",
+    "static/js/2.07902d39.chunk.js",
+    "static/js/main.a5bd2434.chunk.js"
+  ]
+}
