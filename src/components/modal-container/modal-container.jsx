@@ -1,6 +1,6 @@
 import React from "react";
 
-import { useAppContext } from "../../providers/app.provider";
+import { useModalContext } from "../../providers/modal.provider";
 
 import InnerModal from "../inner-modal/inner-modal";
 import Modal from "../modal/modal";
@@ -8,7 +8,7 @@ import Modal from "../modal/modal";
 const ModalContainer = () => {
   const {
     state: { showModal }
-  } = useAppContext();
+  } = useModalContext();
 
   return (
     <div>

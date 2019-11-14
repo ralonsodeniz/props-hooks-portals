@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from "react";
-import { useAppContext } from "../../providers/app.provider";
+import { useModalContext } from "../../providers/modal.provider";
 import {
   InnerModalContainer,
   InnerModalComponentContainer
@@ -22,7 +22,7 @@ const InnerModal = () => {
   const {
     state: { modalType, modalProps },
     closeModal
-  } = useAppContext();
+  } = useModalContext();
   // we load in a default component container the component we have to render from the collection
   const SpecificModal = MODAL_COMPONENTS[modalType];
 

@@ -5,16 +5,11 @@ import PropTypes from "prop-types";
 const CONTEXT = {
   state: {
     count: 0,
-    videoUrl: "",
-    showModal: false,
-    modalType: null,
-    modalProps: {}
+    videoUrl: ""
   },
   incrementCount: () => {},
   decrementCount: () => {},
-  setVideoUrl: () => {},
-  openModal: () => {},
-  closeModal: () => {}
+  setVideoUrl: () => {}
 };
 // we create the context with its initial context object and a custom hook so we just have to call it when we want to get something from the context inside any component wrapped by the provider
 const AppContext = createContext(CONTEXT);
@@ -24,10 +19,7 @@ const AppProvider = ({ children }) => {
   // we define the initial state object
   const INITIAL_STATE = {
     count: 0,
-    videoUrl: "",
-    showModal: false,
-    modalType: null,
-    modalProps: {}
+    videoUrl: ""
   };
   // we modify it using the useState hook that will give us acces to setState
   const [state, setState] = useState(INITIAL_STATE);
@@ -37,10 +29,6 @@ const AppProvider = ({ children }) => {
   const decrementCount = () =>
     setState(prevState => ({ ...prevState, count: prevState.count - 1 }));
   const setVideoUrl = url => setState({ ...state, videoUrl: url });
-  // openModal action allows us to open the modal component and also pass to it which type of component we want to load in the modal and the props to render it
-  const openModal = (modalType, modalProps) =>
-    setState({ ...state, showModal: true, modalType, modalProps });
-  const closeModal = () => setState({ ...state, showModal: false });
   // finally we render the context provider, passing as value the state and the actions, wrapping its children
   return (
     <AppContext.Provider
@@ -48,9 +36,7 @@ const AppProvider = ({ children }) => {
         state,
         incrementCount,
         decrementCount,
-        setVideoUrl,
-        openModal,
-        closeModal
+        setVideoUrl
       }}
     >
       {children}

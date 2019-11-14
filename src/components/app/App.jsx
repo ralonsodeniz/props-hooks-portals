@@ -1,6 +1,7 @@
 import React from "react";
 
 import AppProvider from "../../providers/app.provider";
+import ModalProvider from "../../providers/modal.provider";
 
 import Counter from "../counter/counter";
 import VideoPlayer from "../video-player/video-player";
@@ -15,9 +16,11 @@ const App = () => {
       <GlobalStyles />
       <AppTitleText>This is a test app</AppTitleText>
       <AppProvider>
-        <Counter />
-        <VideoPlayer />
-        <ModalContainer />
+        <ModalProvider>
+          <Counter />
+          <VideoPlayer />
+          <ModalContainer />
+        </ModalProvider>
       </AppProvider>
     </AppContainer>
   );

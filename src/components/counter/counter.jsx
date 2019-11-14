@@ -1,6 +1,7 @@
 import React from "react";
 
 import { useAppContext } from "../../providers/app.provider";
+import { useModalContext } from "../../providers/modal.provider";
 
 import CustomButton from "../custom-button/custom-button";
 
@@ -14,10 +15,10 @@ const Counter = () => {
   // we get the state props and actions needed from the provider using the custom hook useAppContext
   const {
     state: { count },
-    openModal,
     incrementCount,
     decrementCount
   } = useAppContext();
+  const { openModal } = useModalContext();
   // we create the objects that we are going to pass as props to the components inside the modal
   const countUpModalProps = {
     text: "Count up",
