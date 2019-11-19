@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/props-hooks-portals/static/js/main.0871c8ff.chunk.js",
-    "main.js.map": "/props-hooks-portals/static/js/main.0871c8ff.chunk.js.map",
+    "main.js": "/props-hooks-portals/static/js/main.5d197711.chunk.js",
+    "main.js.map": "/props-hooks-portals/static/js/main.5d197711.chunk.js.map",
     "runtime-main.js": "/props-hooks-portals/static/js/runtime-main.90f64d39.js",
     "runtime-main.js.map": "/props-hooks-portals/static/js/runtime-main.90f64d39.js.map",
     "static/js/2.3a900b07.chunk.js": "/props-hooks-portals/static/js/2.3a900b07.chunk.js",
@@ -9,12 +9,12 @@
     "static/js/3.f495f6de.chunk.js": "/props-hooks-portals/static/js/3.f495f6de.chunk.js",
     "static/js/3.f495f6de.chunk.js.map": "/props-hooks-portals/static/js/3.f495f6de.chunk.js.map",
     "index.html": "/props-hooks-portals/index.html",
-    "precache-manifest.da29b9475834740a0379b215b4d7a470.js": "/props-hooks-portals/precache-manifest.da29b9475834740a0379b215b4d7a470.js",
+    "precache-manifest.2a023d8762301c190d8c81f86dcdcdc3.js": "/props-hooks-portals/precache-manifest.2a023d8762301c190d8c81f86dcdcdc3.js",
     "service-worker.js": "/props-hooks-portals/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.90f64d39.js",
     "static/js/2.3a900b07.chunk.js",
-    "static/js/main.0871c8ff.chunk.js"
+    "static/js/main.5d197711.chunk.js"
   ]
 }

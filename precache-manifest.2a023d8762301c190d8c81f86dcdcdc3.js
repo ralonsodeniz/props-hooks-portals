@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e63396571413be1ca2692c78c8825e91",
+    "revision": "902782deb4369d0de91b0ff3e4c6ec95",
     "url": "/props-hooks-portals/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/props-hooks-portals/static/js/3.f495f6de.chunk.js"
   },
   {
-    "revision": "7ebe8b7d08c7ebdd75da",
-    "url": "/props-hooks-portals/static/js/main.0871c8ff.chunk.js"
+    "revision": "9f7c73ba732256ed9657",
+    "url": "/props-hooks-portals/static/js/main.5d197711.chunk.js"
   },
   {
     "revision": "ee7983fd789e6495e45f",
